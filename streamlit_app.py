@@ -17,7 +17,7 @@ Predictive maintenance primarily focuses on detecting upcoming possible failures
     """
 )
 
-with open ('/home/yash/Desktop/ml_projects/Predictive_Maintenance_Project/model/model.pkl','rb') as model_file:
+with open ('model/model.pkl','rb') as model_file:
     model = pickle.load(model_file)
 
 col1,col2= st.columns(2)
