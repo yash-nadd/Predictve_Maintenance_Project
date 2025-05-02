@@ -1,0 +1,1 @@
+link - https://predictve-maintenance-project.streamlit.app/
